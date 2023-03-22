@@ -41,7 +41,7 @@ for (let i = 0; i < team.length; i++) {
   const curTeam = team[i];
   console.log(curTeam);
   card += ` <div class="card border border-0">
-                <img src="${curTeam.foto}" class="card-img-top" alt="..." />
+                <img src="img/${curTeam.foto}" class="card-img-top" alt="..." />
                 <div class="card-body">
                     <h5 class="card-title">${curTeam.nome}</h5>
                     <p class="card-text">
