@@ -42,7 +42,7 @@ for (let i = 0; i < team.length; i++) {
   console.log(curTeam);
   card += ` <div class="card border border-0">
                 <img src="img/${curTeam.foto}" class="card-img-top" alt="..." />
-                <div class="card-body">
+                <div class="card-body text-center text-light-emphasis">
                     <h5 class="card-title">${curTeam.nome}</h5>
                     <p class="card-text">
                         ${curTeam.ruolo}
